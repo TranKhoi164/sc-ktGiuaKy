@@ -77,7 +77,7 @@ contract ERC721Token {
     emit Transfer(from, to, tokenId);
   }
 
-  function convertUintToStr(uint256 _i) internal pure returns (string memory) { // func convert uint to str created by chatGpt
+  function convertUintToStr(uint256 _i) internal pure returns (string memory) { // func convert uint to str 
     if (_i == 0) {
         return "0";
     }
